@@ -23,3 +23,4 @@ public class Main {
     s.studentGrade(95);
     }
 }
+
