@@ -1,5 +1,6 @@
+
 import java.util.Scanner;
-public class Textinput {
+public class Textinput{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your name: ");
