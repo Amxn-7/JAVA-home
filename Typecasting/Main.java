@@ -1,9 +1,6 @@
 package Typecasting;
-import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        // typecasting
+    public static void main(String[] args) {        // typecasting
         int sum = (int)(69.34f);
         System.out.println(sum);
         // automatic type promotion in expressions
