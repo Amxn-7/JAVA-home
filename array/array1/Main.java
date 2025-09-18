@@ -1,4 +1,4 @@
-package array;
+package array.array1;
 
 public class Main {
     
