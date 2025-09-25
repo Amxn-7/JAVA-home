@@ -133,9 +133,23 @@ public class Main {
         }
     }
     public static void print11(int n) {
-        
-        
+        int num = 1;
+        for(int i=1;i<=n;i++){
+            for(int j =1;j<=i;j++){
+                System.out.print(num);
+                num = num+1;
+            }
+            System.out.println();
+        }
     }// Main method
+    public static void print12 (int n) {
+        for(int i=0;i<=n;i++){
+            for(char ch = 'A';ch<='A'+ i;ch++){
+                System.out.print(ch + " ");
+            }
+            System.out.println();
+        }
+    }  
     public static void main(String[] args) {
         Scanner inn = new Scanner(System.in);
         System.out.print("Enter number: ");
@@ -151,6 +165,8 @@ public class Main {
         // print8(n);
         // print9(n);
         // print10(n);
+        // print11(n);
+        print12(n);
         
         inn.close();
     }
