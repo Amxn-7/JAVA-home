@@ -8,7 +8,7 @@ class Solution {
         }
         return n * factorial(n - 1);  // recursive call
     }
-    //
+    //for commit
     // Main method to run the program
     public static void main(String[] args) {
         Solution obj = new Solution();  // create object of Solution class
