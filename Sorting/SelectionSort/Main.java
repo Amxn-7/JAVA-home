@@ -10,12 +10,40 @@ public class Main {
                 if (arr[j] < arr[mini]) {
                     mini = j;
                 }
-            }
+            
             // Swap arr[i] and arr[mini]
-            int temp = arr[i];
-            arr[i] = arr[mini];
-            arr[mini] = temp;
-            System.out.println(Arrays.toString(arr)); // Use Arrays, not Array, and System, not Systm
+            int temp = arr[mini];
+            arr[mini] = arr[i];
+            arr[i] = temp;
+            }
         }
+            System.out.println(Arrays.toString(arr)); // Use Arrays, not Array, and System, not Systm
+        
     }
 }
+
+// package Sorting.SelectionSort;
+// import java.util.Arrays;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int[] arr = {1, 3, 7, 5, 2};
+
+//         // Selection Sort
+//         for (int i = 0; i < arr.length - 1; i++) {
+//             int mini = i;
+//             for (int j = i + 1; j < arr.length; j++) {
+//                 if (arr[j] < arr[mini]) {
+//                     mini = j;
+//                 }
+//             }
+//             // Swap arr[i] and arr[mini]
+//             int temp = arr[mini];
+//             arr[mini] = arr[i];
+//             arr[i] = temp;
+//         }
+
+//         // ✅ Print only the final sorted array
+//         System.out.println("Sorted array: " + Arrays.toString(arr));
+//     }
+// }
