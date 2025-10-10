@@ -1,3 +1,14 @@
 {
-    "liveServer.settings.port": 5501
+    // ... your existing settings ...
+
+    // ADD THIS LINE
+    "code-runner.cwd": "$workspaceRoot", 
+
+    // AND ENSURE this is still correct from the previous step:
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        // ...
+    },
+    
+    // ...
 }
