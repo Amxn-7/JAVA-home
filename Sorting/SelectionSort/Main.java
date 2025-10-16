@@ -3,7 +3,7 @@ import java.util.Arrays; // Use Arrays, not Array
 // import java.util.Scanner;
 public class Main {
     public static void main(String[] args) { // main should be public
-        int[] arr = new int[]{5,3,7,2,1}; // Use new int[]{...}
+        int[] arr = new int[]{5,3,7,2,1,1,2}; // Use new int[]{...}
         for (int i = 0; i < arr.length - 1; i++) {
             int mini = i;
             for (int j = i + 1; j < arr.length; j++) { // Use < instead of <=
